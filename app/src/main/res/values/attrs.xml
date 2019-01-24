@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="net">
+        <attr name="netColor" format="color" />
+        <attr name="pathColor" format="color" />
+        <attr name="textColor" format="color" />
+        <attr name="netWidth" format="dimension" />
+        <attr name="textSize" format="dimension" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.kotlindemo.MainActivity">
+
+    <com.example.administrator.kotlindemo.NetView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:id="@+id/netView"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        app:netColor="@color/frame"
+        app:pathColor="@color/value"
+        app:textColor="@color/black"
+        app:netWidth="3dp"
+        app:textSize="13dp"
+        />
+</RelativeLayout>
